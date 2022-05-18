@@ -1,2 +1,2 @@
 # bootcamp-repo
-This is my bath university of Bath spa
+This is my first repo for university of Bath spa 
