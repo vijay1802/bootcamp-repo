@@ -1,2 +1,2 @@
 # bootcamp-repo
-Bath spa
+This is my bath university of Bath spa
