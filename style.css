@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+.container{
+    height: 100vw;
+    width: 100vw;
+    background-image:url('image1/background.png') ;
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    width: 85%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+
+.content.logo{
+    width: 100px;
+    margin-top: 50px;
+}
+.content hr{
+    border: none;
+    height: 6px;
+    background-color: #FFA1A1;
+    max-width: 250px;
+}
+.content h1{
+font-size: 200px;
+font-weight: 100;
+color: #cfcfcfcf;
+letter-spacing: 4px;
+line-height: 150px;
+margin-top: 50px;
+margin-bottom: 30px;
+}
+
+.content p{
+    max-width: 400px;
+    color: #cfcfcfcf;
+    font-size: 20px;
+    line-height: 20px;
+
+
+}
+
+
+
+
+.content .watch_trailer{
+    text-decoration: none;
+    padding: 20px 30px;
+    margin-top: 50px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: lawngreen;
+    font-size: 20px;
+}
+
+.content .view_more{
+    text-decoration: none;
+    padding: 20px 30px;
+    margin-top: 50px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: lawngreen;
+    font-size: 20px;
+}
+
+.content .watch_trailer:hover{
+    border-color: #FFA1A1;
+    background: #cd7771;
+    color: black;
+    font-weight: 2;
+
+}
+
+.content .view_more:hover{
+    border-color: #FFA1A1;
+    background: #cd7771;
+    color: black;
+    font-weight: 2;
+
+}
+
+.menue{
+    width: 80px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+}
+.sidebar{
+    width: 100%;
+    height: 210%;
+    background-color:rgb(0, 0, 0,8);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 110;
+    max-width: 500px;
+    backdrop-filter: blur(80px);
+}
