@@ -9,7 +9,7 @@
     height: 100vw;
     width: 100vw;
     background-image:url('image1/background.png') ;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
 }
 .content{
