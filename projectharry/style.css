@@ -1,0 +1,209 @@
+
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+
+
+*{
+    
+    margin: 0;
+    padding: 0%;
+    font-family: 'Harry Potter', sans-serif;
+}
+body{
+    background:black;
+    color: white;
+}
+.banner{
+    height: 80vw;
+    width: 100%;
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-repeat: no-repeat;
+    margin: auto;
+
+    
+    }
+    .banner-text{
+        text-align: center;
+        font-size: 50px;
+        color: whitesmoke;
+        letter-spacing: 4px;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 25px;
+        font-size: 20px;
+        margin: 10px 0;
+        letter-spacing: 2px;
+        
+    }
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    padding: 0 5vw;
+}
+span{
+    color: white;
+}
+span:hover{
+    border: 2px solid green;
+    background-color: purple;
+    color: lime;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+
+
+.flex-main{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items:center;
+    width: 100%;
+    max-width: 150rem;
+}
+h2{
+    padding: 10vh 0;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.row{
+
+margin-bottom: 3em;
+flex-wrap:nowrap;
+max-width: 1024px;
+display: flex;
+justify-content: center;
+text-align:justify;
+
+}
+.row img{
+
+    width: 425px;
+    height: 300px;
+    
+}
+ #danger{
+     letter-spacing: 2px;
+     position: absolute;
+     padding-left: 16em;
+     
+ }
+ #page{
+     padding-left: 12em;
+     padding-top: 2em;
+    margin-top: 10px;
+    place-self: center;
+
+   
+ }
+
+ 
+
+
+.rowone{
+    
+margin-bottom: 5em;
+flex-wrap:nowrap;
+display:flex;
+flex-direction: row-reverse;
+justify-content:center;
+text-align:justify;
+max-width: 1024px;
+
+
+
+}
+.rowone img{
+   
+    height: 300px;
+    width: 425px;
+}
+
+#nature{
+    letter-spacing: 2px;
+    position: absolute;
+    padding-right: 60em;
+    
+
+
+}
+#page1{
+    margin-top: 2em;
+    text-align: justify;
+    padding-right: 12em;
+    place-self: center;
+    /* margin-left: 12px; */
+    /* margin-right: 1em; */
+
+
+
+}
+
+
+.rowtwo{
+    justify-content: center;
+    text-align: justify;
+    margin-bottom: 3em;
+    /* flex-wrap:nowrap; */
+    display: flex;
+    max-width: 1024px;
+}
+
+.rowtwo img{
+margin-right: 12em;
+height: 300px;
+width: 400px;
+}
+
+#package{
+    letter-spacing: 2px;
+    position: absolute;
+   
+    padding-left: 26em;
+    
+
+}
+
+#page2{
+    margin-top: 2em;
+    padding-right: 1em;
+    place-self: center;
+
+}
+.testimonials{
+    text-align: center;
+    /* border: 4px solid; */
+    border-radius: 30%;
+    background-color:#00ffff42;
+    width: 90%;
+    padding: 1em;
+    margin-left: 5em;
+}
+.testimonials p{
+    color: #f7f5a5;
+    font-size: 13px;
+}
+
+.testimonials h3{
+    letter-spacing: 2px;
+}
+
+
+
+
+/* img{
+    width: 400px;
+    height: 400px;
+} */
