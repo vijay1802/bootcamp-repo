@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(images/background.png);
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    height: 50vw;
+    width: 100%;
+    background-position: center;
+    justify-content:flex-start;
+    align-items:baseline;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.logo{
+    height: 70px;
+    margin-top: 10%;
+    margin-left: 45%;
+    margin-bottom: 100%;
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    cursor:progress;
+    counter-increment: 2px;
+
+}
+
+#menue-png{
+    width: 80px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    cursor:pointer;
+}
+
+.social-icons{
+    /* width:px; */
+    /* left: 6%; */
+    position:fixed;
+    bottom: 30%;
+    /* left: 1%; */
+    max-width: 0.5px;
+}
+
+.heading{
+    height: 3%;
+    margin-left: 30%;
+    position: inherit;
+    width: 20rem;
+    font-size: 1.5rem;
+    
+}
+
+.page{
+
+    width: 20rem;
+    margin-left: 30%;
+    margin-top: 10%;
+    text-align: justify;
+}
+.read-more{
+    text-decoration: none;
+    padding: 20px 30px;
+    margin-top: 50px;
+    display: inline-block;
+    border: 2px solid #f67c92;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.square{
+    /* margin: 1px; */
+    /* padding: 1%; */
+ height: 15px;
+  width: 15px;
+  background-color: #f67c92;
+  margin-bottom: 12px;
+}
+.hrlogo-one{
+border: none;
+background-color: #f67c92;
+height: 2px;
+max-width: 100px;
+}
+
+.hrlogo-two{
+    border: none;
+background-color: #f67c92;
+height: 2px;
+max-width: 80px;
+}
+
+ /* nav{
+    display: flex;
+    flex-direction:row;
+    align-items:flex-end;
+    justify-content:flex-end;
+    width: 100%;
+    height: 2;
+    font-size: 20px;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    
+}
+nav ul{
+display: flex;
+flex-direction: column-reverse;
+align-self:center;
+list-style: none;
+}
+ nav li{
+padding:  5v;
+}
+span{
+color: white;
+}
+span:hover{
+border: 2px solid green;
+background-color: purple;
+color: lime;
+border-radius: 20px;
+text-decoration: none;
+}
+
+
+/*----about----*/
+.about{
+
+}
+
+
+/
+
+/*---courses---*/
+
+.corses{
+
+}
+
+/*---contact---*/
+
+
+.contact{
+
+}
+
+/*----footer----*/
+
+
+.footer{
+
+}
+
+/*---social-icons---*/
+
+.social-icons{
+
+} */
+
+@media only screen and (max-width: 770px){
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
