@@ -38,7 +38,6 @@
 	.one {
 		animation-duration: 1s;
 		animation-delay: 5s;
-		rotate: 35deg;
 	}
 	.two {
 		animation-duration: 0.9s;
