@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* justify-content:flex-start; */
+    /* align-items:flex-start; */
+    background-repeat: no-repeat;
+    margin: auto;
+} 
+.container{
+    display: flex;
+
+}
+
+.logo{
+    height: 100px;
+    margin-top: 5%;
+    margin-left: 5%;
+    position:sticky;
+    flex-direction:row;
+}
+.line{
+    height: 8px;
+
+}
+
+ .line1{
+    width: 60px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+ }
+ .line2{
+    width: 60px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+ }
+ .line3{
+    width: 60px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+
+ }
+ .common-btn{
+
+ }
+.squre{
+ /* margin: 1px; */
+    /* padding: 1%; */
+    height: 15px;
+    width: 15px;
+    background-color: #f67c92;
+    margin-bottom: 12px;
+}
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top:0;
+    background: #f67c92;
+    z-index: 2;
+    transition: .5s;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+#menuBtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+.about{
+
+}
+
+
+
+
+
+.corses{
+
+}
+
+
+.contact{
+
+}
+
+
+
+.footer{
+
+}
+
+
+
+.social-icons{
+b
+}
+
+@media only screen and (max-width: 770px){
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
+ var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+            }
+            else {
+                sideNav.style.right = "-250px";
+            }
+        }
+
+
+        <nav id="sideNav">
+        <ul>
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#courses">COURSES</a></li>
+            <li><a href="#offer">OFFER</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" id="menuBtn">

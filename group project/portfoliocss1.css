@@ -1,0 +1,43 @@
+body{
+    background-color: lightcyan;
+}
+h1{
+    color: darkmagenta;
+}
+img{
+    border-radius: 70%;
+    border: 3px solid red;
+    width: 300px;
+    display: inline-flex;
+}
+span{
+    font-style: italic;
+    color: crimson;
+    font-weight: bolder;
+}
+span:hover{
+    background-color: blue;
+    font-size: 150%;
+    display:inline-block;
+}
+a:link{
+    color: coral;
+}
+a:hover{
+background-color:darkorange
+}
+a:visited{
+    color: green;
+}
+a:active{
+    color: darkorchid;
+}
+ol li{
+    display:inline-block;
+    opacity: 150%;
+}
+
+a nav-logo{
+    font-weight: bold;
+    font-size: 50px;
+}

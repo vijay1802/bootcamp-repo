@@ -4,35 +4,24 @@
     font-family: sans-serif;
 }
 body{
-    background-image: url(images/background.png);
-    background-size: cover;
+    background-image: url(images/contact.png);
+    background-size:50%;
     box-sizing: border-box;
-    padding: 5px;
-    margin: 5px;
+    /* padding: 5px; */
+    /* margin: 5px; */
     display: flex;
-    height: 50vw;
-    width: 100%;
-    background-position: center;
+    /* height: 50vw; */
+    /* width: 100%; */
+    background-position:bottom;
     justify-content:flex-start;
+    background-position-x: right;
     align-items:baseline;
     background-repeat: no-repeat;
     margin: auto;
 }
 
-.logo{
-    height: 70px;
-    margin-top: 10%;
-    margin-left: 45%;
-    margin-bottom: 100%;
-    position: relative;
-    display: flex;
-    flex-direction:row;
-    cursor:progress;
-    counter-increment: 2px;
 
-}
-
-#menue-png{
+.menue-png{
     width: 80px;
     top: 0;
     right: 0;
@@ -40,18 +29,10 @@ body{
     cursor:pointer;
 }
 
-.social-icons{
-    /* width:px; */
-    /* left: 6%; */
-    position:fixed;
-    bottom: 30%;
-    /* left: 1%; */
-    max-width: 0.5px;
-}
-
 .heading{
     height: 3%;
-    margin-left: 30%;
+    margin-left: 10%;
+    margin-top: 10%;
     position: inherit;
     width: 20rem;
     font-size: 1.5rem;
@@ -97,6 +78,30 @@ background-color: #f67c92;
 height: 2px;
 max-width: 80px;
 }
+input[type=text ], select {
+    /* width: 30%; */
+    padding: 10px 0px;
+    margin: 8px 0;
+    display:grid;
+    border: 1px solid #f67c92;
+    border-radius: 4px;
+    box-sizing:border-box;
+  }
+   */
+  /* input[type=SignUp] {
+    width: 100%;
+    background-color: #f67c92;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } */
+  
+  /* input[type=submit]:hover {
+    background-color: #f67c92;
+  } */
 
  /* nav{
     display: flex;
@@ -182,28 +187,3 @@ text-decoration: none;
 
 
  */
- var menuBtn = document.getElementById("menuBtn");
-        var sideNav = document.getElementById("sideNav");
-
-        sideNav.style.right = "-250px";
-        menuBtn.onclick = function () {
-            if (sideNav.style.right == "-250px") {
-                sideNav.style.right = "0";
-            }
-            else {
-                sideNav.style.right = "-250px";
-            }
-        }
-
-
-        <nav id="sideNav">
-        <ul>
-            <li><a href="#header">HOME</a></li>
-            <li><a href="#about">ABOUT US</a></li>
-            <li><a href="#features">FEATURES</a></li>
-            <li><a href="#courses">COURSES</a></li>
-            <li><a href="#offer">OFFER</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-        </ul>
-    </nav>
-    <img src="images/menu.png" id="menuBtn">

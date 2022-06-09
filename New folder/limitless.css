@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(images/offer.png);
+    background-size:auto;
+    box-sizing: border-box;
+    /* padding: 5px;
+    margin: 5px; */
+    display: flex;
+    /* height: 50vw;
+    width: 50%; */
+    /* background-position: center; */
+    justify-content:flex-start;
+    align-items:baseline;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.container{
+    display: flex;
+    flex-direction:row-reverse;
+}
+
+
+#menue-png{
+    height: 30px;
+    width: 30px;
+    top: 0;
+    right: 0;
+    /* position: absolute; */
+    cursor:pointer;
+}
+
+.social-icons{
+    /* width:px; */
+    left: 1%;
+    position:fixed;
+    bottom: 30%;
+
+    max-width: 0.5px;
+}
+
+.heading{
+    height: 22vh;
+    font-size: 0.96rem;
+    display: flex;
+    justify-content:end;
+    align-items: self-end;
+    position:inherit;
+    width: 130rem;
+    text-align: right;
+    
+}
+
+.page{
+padding: 10px;
+    width:400px;
+    margin-top: 20%;
+    text-align:right;
+    position: absolute;
+}
+.page-one{
+    padding: 5px;
+}
+ .start-free{
+    text-decoration: none;
+    display:flex;
+    border: 2px solid #f67c92;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    padding: 5px;
+    margin: 10px;
+    font-size: medium;
+}
+
+.square{
+ height: 15px;
+  width: 15px;
+  background-color: #f67c92;
+  float: right;
+}
+.square1{
+    margin-top: 15px;
+    margin-left: 96%;
+    display: flex;
+ height: 15px;
+  width: 15px;
+  background-color: #f67c92;
+  /* float: right; */
+}
+.hrlogo{
+    direction: rtl;
+    margin-top: 9px;
+}
+.hrlogo-one{
+border: none;
+background-color: #f67c92;
+height: 2px;
+max-width: 100px;
+}
+
+.hrlogo-two{
+    border: none;
+background-color: #f67c92;
+height: 2px;
+max-width: 80px;
+}
+
+h2{
+    /* display:contents; */
+    font-size: 1em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+}
+span{
+    font-size: 10px;
+}
+
+
+ /* nav{
+    display: flex;
+    flex-direction:row;
+    align-items:flex-end;
+    justify-content:flex-end;
+    width: 100%;
+    height: 2;
+    font-size: 20px;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    
+}
+nav ul{
+display: flex;
+flex-direction: column-reverse;
+align-self:center;
+list-style: none;
+}
+ nav li{
+padding:  5v;
+}
+span{
+color: white;
+}
+span:hover{
+border: 2px solid green;
+background-color: purple;
+color: lime;
+border-radius: 20px;
+text-decoration: none;
+}
+
+
+/*----about----*/
+.about{
+
+}
+
+
+/
+
+/*---courses---*/
+
+.corses{
+
+}
+
+/*---contact---*/
+
+
+.contact{
+
+}
+
+/*----footer----*/
+
+
+.footer{
+
+}
+
+/*---social-icons---*/
+
+.social-icons{
+
+} */
+
+@media only screen and (max-width: 770px){
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
